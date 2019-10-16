@@ -9,7 +9,9 @@ You can control what version of React.js (and JSXTransformer) is used by `react-
 
 | Gem      | React.js |
 |----------|----------|
-| master   | 16.4.2   |
+| master   | 16.8.6   |
+| 2.6.0    | 16.8.6   |
+| 2.5.0    | 16.8.6   |
 | 2.4.7    | 16.4.2   |
 | 2.4.6    | 16.4.1   |
 | 2.4.5    | 16.3.2   |
@@ -55,4 +57,4 @@ You can control what version of React.js (and JSXTransformer) is used by `react-
 
 ## Drop-in Version
 
-You can also provide your own copies of React.js and JSXTransformer. Just add `react.js` or `JSXTransformer.js` (case-sensitive) files to the asset pipeline (eg,  `app/assets/vendor/`).
+You can also provide your own copies of React.js and JSXTransformer. Just add a different version of `react.js` and `react-server.js` from this project or `JSXTransformer.js` (case-sensitive) files to the asset pipeline (eg,  `app/assets/vendor/`).

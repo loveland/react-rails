@@ -8,6 +8,40 @@
 
 #### Bug Fixes
 
+## 2.6.0
+
+#### Breaking Changes
+
+#### New Features
+
+- Typescript component generator #990
+- Enhanced Turbolinks Support #978 #962
+
+#### Deprecation
+
+#### Bug Fixes
+
+- assert_react_component will not pass tests where the case was different #979
+- action_controller/test_case was accidentally `required` in dev #996
+
+## 2.5.0
+
+#### Breaking Changes
+
+#### New Features
+
+- React 16.8.6 prebundled #977
+- Added `assert_react_component` test helper #957
+- Supports Webpacker 4, Ruby 2.6 #934
+- Supports camelize on ActionController::Parameters #932
+
+#### Deprecation
+
+#### Bug Fixes
+
+- Linting fix to generated JS #941
+- (Meta) Tests for react-rails updated #892 #894 #916
+
 ## 2.4.7
 
 #### New Features
